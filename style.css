@@ -1,17 +1,65 @@
 /* box sizing tip from the CSS Tricks article */
 html {
   box-sizing: border-box;
+  font-family: 'Courier New', Courier, monospace; /*I'm not a big font person so I won't change fonts between sections.*/
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
 }
+
 /* handle the 4 states of a link */
-a:link {}
-a:visited {}
-a:hover {}
-a:active {}
+a:link {
+  color: #0000ff;
+}
+a:visited {
+  color: #6c098a;
+}
+a:hover {
+  color: #14692d;
+}
+a:active {
+  color: #4bc94b;
+}
 
 .dashed-break {
   border: dashed;
+  border-color: rgb(107, 106, 106);
+  margin: 0px;
+  background: rgb(194, 225, 235)
+
+}
+
+header, footer {
+  background: rgb(107, 106, 106);
+  color: #ffffff;
+  padding: 0px;
+}
+
+.wrapper, h1, footer p {
+  margin: 0px;
+  padding: 3%;
+  border: 0px;
+}
+
+h1, footer p, .center-img {
+  text-align: center;
+  font-size: 18pt;
+}
+
+.signature {
+  padding: 0px;
+  font-size: 14pt;
+}
+
+h1 {
+  text-transform: uppercase;
+}
+
+main {
+  background: rgb(194, 225, 235);
+}
+
+img {
+  align-content: center;
 }
