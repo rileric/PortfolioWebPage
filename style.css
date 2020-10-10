@@ -1,0 +1,17 @@
+/* box sizing tip from the CSS Tricks article */
+html {
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+/* handle the 4 states of a link */
+a:link {}
+a:visited {}
+a:hover {}
+a:active {}
+
+.dashed-break {
+  border: dashed;
+}
