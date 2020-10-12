@@ -26,7 +26,7 @@ a:active {
   border: dashed;
   border-color: rgb(107, 106, 106);
   margin: 0px;
-  background: rgb(194, 225, 235)
+  background: rgb(194, 225, 235);
 
 }
 
@@ -34,6 +34,7 @@ header, footer {
   background: rgb(107, 106, 106);
   color: #ffffff;
   padding: 0px;
+  height: 10%;
 }
 
 .wrapper, h1, footer p {
