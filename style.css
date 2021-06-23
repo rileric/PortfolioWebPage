@@ -8,6 +8,7 @@ html {
   box-sizing: inherit;
 }
 
+
 /* handle the 4 states of a link */
 a:link {
   color: #0000ff;
@@ -59,9 +60,46 @@ h1 {
 
 main {
   background: rgb(194, 225, 235);
+  width: 100%;
 }
 
-img {
+header img {
   align-content: center;
   width: 20%;
+}
+
+.projects-list, .projects-item {
+  display: flex;
+  flex-direction: column;
+  min-height: 520px;
+  margin-bottom: 10px;
+}
+
+.projects-item img {
+  float: left;
+  min-height: 250px;
+  width: 300px;
+  align-content: center;
+  border: solid #000000;
+}
+
+.contact {
+  padding-top: 100px;
+}
+
+@media all and (min-width: 900px) {
+
+  .projects-list {
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  .projects-item {
+    width: 32%;
+    height: 150px;
+    padding-bottom: 32%; /* same as width, sets height */
+    margin-bottom: 2%; /* (100-32*3)/2 */
+    position: relative;
+  }
 }

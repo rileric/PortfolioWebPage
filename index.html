@@ -34,13 +34,12 @@
             <p>I am in Madison, WI. Previously, I grew up in Stevensville, MI and attended undergrad at the University of Michigan in Ann Arbor.</p>
           </section>
 
-          <hr>
-
           <!----
           About me Section
             passion for web development and work
             other interests --->
           <section>
+            <hr>
             <h2>About Me</h2>
 
             <h3>Passion</h3>
@@ -60,7 +59,42 @@
             </ul>
           </section>
 
-          <hr>
+          <!----
+          Project Section
+            title, description, technology, screenshots, github, live link --->
+            <section class='projects' >
+              <hr>
+              <h2 class=''>Projects</h2>
+              <div class='projects-list'>
+                <div class='projects-item'>
+                  <h3 class='item'>What's for Dinner</h3>
+                  <img src="Images/whats-for-dinner-recipe.jpg" alt="First version of What's for Dinner" class='item'>
+                  <p class='item'><u>Description:</u> My first capstone using a third-party API. This app is for anyone hungry and curious! It finds recipes based off the category, cuisine, or list of ingredients. Still can't decide What's for Dinner? Try one of the ten random recipes!</p>
+                  <p class='item'><u>Technology:</u> HTML, CSS, Javascript with JQuery</p>
+                  <a href="https://rileric.github.io/WhatsForDinner/" class='item'>Visit</a>
+                  <a href="https://github.com/rileric/WhatsForDinner" class='item'>GitHub</a> 
+                </div>
+                <div class='projects-item'>
+                  <h3 class='item'>Retrack</h3>
+                  <img src="Images/retrack.jpg" alt="Retrack" class='item'>
+                  <p class='item'><u>Description:</u> Retrack was initially designed for release date tracking. Anyone can post an event that they would like to track. Timelines are lists of events sorted by their date. With Retrack, I wanted to explore different styles and experiment with grids.</p>
+                  <p class='item'><u>Technology:</u> React, CSS, Express, Node, and PostgreSQL</p>
+                  <a href="https://retrack-client.vercel.app/" class='item'>Visit</a>
+                  <a href="https://github.com/rileric/retrack-client" class='item'>Client GitHub</a> 
+                  <a href="https://github.com/rileric/retrack-server" class='item'>Server GitHub</a> 
+                </div>
+                <div class='projects-item'>
+                  <h3 class='item'>What's for Dinner (2.0)</h3>
+                  <img src="Images/whats-for-dinner2-meal.jpg" alt="Second version of What's for Dinner" class='item'>
+                  <p class='item'><u>Description:</u> An upgrade of my first project. I converted the HTML to the React framework, added a login system, and everyone can now add their own custom recipes! This is a long-term project that I plan on continuing to upgrade in the future.</p>
+                  <p class='item'><u>Technology:</u> React, CSS, Express, Node, Auth0, and PostgreSQL</p>
+                  <a href="https://wfd-client.vercel.app/" class='item'>Visit</a>
+                  <a href="https://github.com/rileric/wfd-client" class='item'>Client GitHub</a> 
+                  <a href="https://github.com/rileric/wfd-server" class='item'>Server GitHub</a> 
+                </div>
+              </div>
+              
+            </section>
 
 
           <!----
@@ -68,7 +102,8 @@
             LinkedIn
             GitHub
             email (optional) --->
-          <section>
+          <section class='contact'>
+            <hr>
             <h2>Contact Info</h2>
             <a href="https://www.linkedin.com/in/eric-riley-b5575342/">LinkedIn</a>
             <a href="https://github.com/rileric">GitHub</a>
